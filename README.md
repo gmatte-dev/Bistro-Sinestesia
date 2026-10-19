@@ -107,7 +107,7 @@ Requisitos: Python 3 e pip.
 
 ```bash
 git clone https://github.com/gmatte-dev/Bistro-Sinestesia.git
-cd Bistro-2026
+cd Bistro-Sinestesia
 git checkout deploy
 
 python -m venv .venv
