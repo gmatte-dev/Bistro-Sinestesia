@@ -24,4 +24,4 @@ env/
 .env
 
 # Database 
-*db
+*.db
