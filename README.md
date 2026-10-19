@@ -106,7 +106,7 @@ Os três serviços leem o mesmo arquivo `.env` da raiz e usam o mesmo banco SQLi
 Requisitos: Python 3 e pip.
 
 ```bash
-git clone https://github.com/arthurjww/Bistro-2026.git
+git clone https://github.com/gmatte-dev/Bistro-Sinestesia.git
 cd Bistro-2026
 git checkout deploy
 
