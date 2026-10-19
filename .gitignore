@@ -22,3 +22,6 @@ env/
 
 # Variáveis de ambiente
 .env
+
+# Database 
+*db
