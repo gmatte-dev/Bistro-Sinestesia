@@ -40,7 +40,7 @@ Feito em Python/Flask, com banco SQLite compartilhado entre os serviços.
 
 O sistema foi colocado em produção e validado durante a execução do evento, alcançando os seguintes marcos:
 
-- **Faturamento Processado:** + R$ 15.000,00 em vendas diretas efetuadas na plataforma.
+- **Faturamento Processado:** `+ R$ 15.000,00` em vendas diretas efetuadas na plataforma.
 - **Volume de Vendas:** +140 ingressos pagos confirmados, com um ticket médio de R$ 119,62 por participante.
 - **Eficiência Operacional:** Mapeamento completo e centralizado de 100% das restrições alimentares diretamente vinculado às mesas.
 - **Gestão de Espaço:** Cobertura de assentos mapeados no layout interativo por mesa/lugar sem duplicidade de reservas.
