@@ -72,6 +72,11 @@ Feito em Python/Flask, com banco SQLite compartilhado entre os serviços.
   <sub><b>8. Leitura do QR code na portaria</b></sub>
 </p>
 
+<p align="center">
+  <img src="docs/img/painel_adm_bistro.png" alt="Painel Administrativo de Gestão (Dashboard)" width="800"><br>
+  <sub><b>9. Painel Administrativo de Gestão (Dashboard)</b></sub>
+</p>
+
 ---
 
 ## 🛠️ Tecnologias
