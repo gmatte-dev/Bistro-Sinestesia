@@ -36,7 +36,7 @@ Feito em Python/Flask, com banco SQLite compartilhado entre os serviços.
 ### 🎵 Votação de músicas (`musicas`)
 - Página para votar nas músicas do evento, com contagem de votos gravada no banco compartilhado.
 
-##🎯 Resultados e Impacto no Evento Real**
+## 🎯 Resultados e Impacto no Evento Real
 
 O sistema foi colocado em produção e validado durante a execução do evento, alcançando os seguintes marcos:
 
