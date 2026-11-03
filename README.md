@@ -18,13 +18,32 @@ Feito em Python/Flask, com banco SQLite compartilhado entre os serviços.
 - Ingresso em **PDF com QR code, dia do evento e lugar** (mesa e cadeira), enviado por e-mail depois do pagamento.
 - **Validação na portaria**: o staff lê o QR code e confirma a entrada com um PIN, e o ingresso fica marcado como utilizado.
 
-### 📊 Painel de relatórios (`relatorios`)
+### 📊 Painel Administrativo de Gestão (Dashboard)**
 - Acesso restrito por login de administrador.
 - Visão geral, ingressos vendidos, pagos, não pagos e restantes (inclusive por aluno), resumo financeiro, participantes por curso, restrições e ranking de músicas.
 - [Manual do Usuário - Painel Administrativo de Relatórios](docs/manual-do-usuario-relatorios.md), com instruções de acesso, filtros, relatórios e geração de PDF.
 
+
+- A plataforma inclui um **Dashboard Administrativo dedicado**, estruturado nos seguintes módulos:
+
+* **Resumo de Participantes:** Tabela em tempo real contendo a vinculação do aluno responsável, participante final, valor pago, data da compra, filtro por dia de evento e indicação do lugar/mesa reservado.
+* **Visão Geral & Exportação:** Filtros dinâmicos por curso técnico, aluno e participante, contando com emissão automatizada de **Relatórios em PDF**.
+* **Métricas Financeiras:** Indicadores consolidados de faturamento bruto total, total de ingressos confirmados e ticket médio, com detalhamento de conversão individual por responsável.
+* **Controle de Vendas:** Monitoramento detalhado de estoque de ingressos (Pagos, Não Pagos e Restantes no inventário geral).
+* **Logística de Restrições Alimentares:** Relatório direcionado à equipe de cozinha com a identificação exata de restrições (ex: intolerância à lactose, vegetariano, alergias) associadas ao respectivo assento do participante.
+* **Engajamento Musical (Top 5 Músicas):** Ranking apurado a partir da votação dos compradores para a definição da setlist tocada ao vivo durante o evento.
+
 ### 🎵 Votação de músicas (`musicas`)
 - Página para votar nas músicas do evento, com contagem de votos gravada no banco compartilhado.
+
+##🎯 Resultados e Impacto no Evento Real**
+
+O sistema foi colocado em produção e validado durante a execução do evento, alcançando os seguintes marcos:
+
+- **Faturamento Processado:** + R$ 15.000,00 em vendas diretas efetuadas na plataforma.
+- **Volume de Vendas:** +140 ingressos pagos confirmados, com um ticket médio de R$ 119,62 por participante.
+- **Eficiência Operacional:** Mapeamento completo e centralizado de 100% das restrições alimentares diretamente vinculado às mesas.
+- **Gestão de Espaço:** Cobertura de assentos mapeados no layout interativo por mesa/lugar sem duplicidade de reservas.
 
 ---
 
